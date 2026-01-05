@@ -18,12 +18,12 @@ AI-powered Quality of Service (QoS) monitoring and prediction for next-generatio
 - Recursive XGBoost model with confidence intervals
 - Helps network operators proactively manage congestion
 ## 📸 Dashboard Preview
-![Network Monitor](monitor.png)
-![QoS Forecast](forecast.png)
+![Monitor](monitor.png)
+
 
 ## 📂 Dataset Source
 This project uses real-world 5G traffic data:
-- **Source**: [5G Traffic Datasets (Kaggle)](https://www.kaggle.com/datasets/0913ktg/5g-traffic-datasets)
+- **Source**: [5G Traffic Datasets (Kaggle)](https://www.kaggle.com/datasets/kimdaegyeom/5g-traffic-datasets)
 - **Content**: Packet-level traces from South Korea (2022) converted to throughput metrics.
 - **Traffic Types**: Zoom, Netflix, YouTube, and YouTube Live.
 
@@ -81,10 +81,26 @@ The system follows a predictive analytics pipeline:
 - **Scikit-Learn** - Machine Learning (HistGradientBoostingRegressor)
 - **Streamlit** - Dashboard UI
 - **Matplotlib** - Visualization
+  
+## 📈 Results
+- **Model Accuracy:** Low error (MAE 0.02-0.18 Mbps) with fast <50ms inference.
+- **Anomaly Detection:** Instantly flags >15ms latency spikes and distinguishes congestion from idle states.
+- **Intelligence:** Learned daily traffic cycles and application signatures (e.g., Zoom vs Netflix).
 
 ## 📝 Author
 - **Rapeenut** - Telecommunication Engineering Student @King Mongkut's University of Technology Thonburi
-- [GitHub Profile](https://github.com/Rapeenut14)
 
-## License
-MIT License - Free for educational and commercial use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
