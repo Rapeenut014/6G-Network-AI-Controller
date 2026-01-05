@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Project Specific
+archive/
+network_traffic_6g.csv
+test_results_6g.csv
+model_6g.pkl
+
+# IDEs
+.vscode/
+.idea/
