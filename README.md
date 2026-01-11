@@ -87,8 +87,11 @@ The system follows a predictive analytics pipeline:
 - **Anomaly Detection:** Instantly flags >15ms latency spikes and distinguishes congestion from idle states.
 - **Intelligence:** Learned daily traffic cycles and application signatures (e.g., Zoom vs Netflix).
 
+Built with ❤️ using TensorFlow & Streamlit
+
 ## 📝 Author
 - **Rapeenut** - Telecommunication Engineering Student @King Mongkut's University of Technology Thonburi
+
 
 
 
